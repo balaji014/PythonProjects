@@ -1,1 +1,3 @@
-requirements
+requests
+pydantic
+pytest
