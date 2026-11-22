@@ -1,31 +1,29 @@
-# Virtual environment
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
 .venv/
 venv/
 env/
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# VS Code settings
-.vscode/
-
-# Environment variables
-*.env
-
-# Jupyter Notebook
+.pytest_cache/
 .ipynb_checkpoints/
 
-# Log files
-*.log
+# ML artifacts
+models/
+*.joblib
+*.pkl
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
+# Java / Maven
+target/
+*.class
 
-# Operating system files
-.DS_Store
-Thumbs.db
+# Go
+/go/bin/
