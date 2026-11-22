@@ -20,14 +20,25 @@ requirements.txt for dependencies
 PyhtonProjects/
 │
 ├── src/
-│   └── main.py
+│   ├── main.py
+│   └── sorting/          # 10 sorting algorithms (see src/sorting/README.md)
 │
 ├── tests/
-│   └── test_main.py
+│   ├── test_main.py
+│   └── test_sorting.py
 │
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+## 🔢 Sorting Techniques
+Bubble, selection, insertion, shell, merge, quick, heap, counting, radix and bucket sort, written from scratch with complexity notes, a demo/benchmark and tests.
+Details: [src/sorting/README.md](src/sorting/README.md)
+
+```bash
+python -m src.sorting              # demo
+python -m src.sorting --bench 2000 # benchmark
+```
+
 ## 🛠 Setup Instructions
 ### 1️⃣ Clone the repository
 git clone https://github.com/balaji014/PyhtonProjects.git
@@ -45,7 +56,7 @@ pip install -r requirements.txt
 #### pytest is used for unit testing.
 python -m pytest
 #### Expected output:
-1 passed in 0.05s
+222 passed in 0.10s
 ## 📦 Dependencies
 All dependencies are listed in requirements.txt.
 
