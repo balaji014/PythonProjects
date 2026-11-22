@@ -56,7 +56,7 @@ pip install -r requirements.txt
 #### pytest is used for unit testing.
 python -m pytest
 #### Expected output:
-222 passed in 0.10s
+221 passed in 0.10s
 ## 📦 Dependencies
 All dependencies are listed in requirements.txt.
 
